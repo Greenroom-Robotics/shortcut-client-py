@@ -99,7 +99,8 @@ class EpicState(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -124,7 +125,8 @@ class EpicState(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -172,7 +174,8 @@ class EpicState(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -195,7 +198,8 @@ class EpicState(object):
         :type: str
         """
         if global_id is None:
-            raise ValueError("Invalid value for `global_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._global_id = global_id
 
@@ -220,7 +224,8 @@ class EpicState(object):
         :type: str
         """
         if type is None:
-            raise ValueError("Invalid value for `type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._type = type
 
@@ -245,7 +250,8 @@ class EpicState(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -270,7 +276,8 @@ class EpicState(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -295,7 +302,8 @@ class EpicState(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -320,7 +328,8 @@ class EpicState(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

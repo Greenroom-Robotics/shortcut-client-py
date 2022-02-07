@@ -82,7 +82,8 @@ class HistoryActionStoryLinkDelete(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -107,7 +108,8 @@ class HistoryActionStoryLinkDelete(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -132,7 +134,8 @@ class HistoryActionStoryLinkDelete(object):
         :type: str
         """
         if action is None:
-            raise ValueError("Invalid value for `action`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["delete"]  # noqa: E501
         if action not in allowed_values:
             raise ValueError(
@@ -163,7 +166,8 @@ class HistoryActionStoryLinkDelete(object):
         :type: str
         """
         if verb is None:
-            raise ValueError("Invalid value for `verb`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["blocks", "duplicates", "relates to"]  # noqa: E501
         if verb not in allowed_values:
             raise ValueError(
@@ -194,7 +198,8 @@ class HistoryActionStoryLinkDelete(object):
         :type: int
         """
         if subject_id is None:
-            raise ValueError("Invalid value for `subject_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._subject_id = subject_id
 
@@ -219,7 +224,8 @@ class HistoryActionStoryLinkDelete(object):
         :type: int
         """
         if object_id is None:
-            raise ValueError("Invalid value for `object_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._object_id = object_id
 

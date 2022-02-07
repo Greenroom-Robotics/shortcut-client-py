@@ -70,7 +70,8 @@ class UnusableEntitlementError(object):
         :type: str
         """
         if reason_tag is None:
-            raise ValueError("Invalid value for `reason_tag`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["entitlement-violation"]  # noqa: E501
         if reason_tag not in allowed_values:
             raise ValueError(
@@ -101,7 +102,8 @@ class UnusableEntitlementError(object):
         :type: str
         """
         if entitlement_tag is None:
-            raise ValueError("Invalid value for `entitlement_tag`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entitlement_tag = entitlement_tag
 
@@ -126,7 +128,8 @@ class UnusableEntitlementError(object):
         :type: str
         """
         if message is None:
-            raise ValueError("Invalid value for `message`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._message = message
 

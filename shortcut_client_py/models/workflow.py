@@ -102,7 +102,8 @@ class Workflow(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -127,7 +128,8 @@ class Workflow(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -152,7 +154,8 @@ class Workflow(object):
         :type: list[float]
         """
         if project_ids is None:
-            raise ValueError("Invalid value for `project_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._project_ids = project_ids
 
@@ -177,7 +180,8 @@ class Workflow(object):
         :type: list[WorkflowState]
         """
         if states is None:
-            raise ValueError("Invalid value for `states`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._states = states
 
@@ -202,7 +206,8 @@ class Workflow(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -227,7 +232,8 @@ class Workflow(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -252,7 +258,8 @@ class Workflow(object):
         :type: bool
         """
         if auto_assign_owner is None:
-            raise ValueError("Invalid value for `auto_assign_owner`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._auto_assign_owner = auto_assign_owner
 
@@ -277,7 +284,8 @@ class Workflow(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -302,7 +310,8 @@ class Workflow(object):
         :type: int
         """
         if team_id is None:
-            raise ValueError("Invalid value for `team_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._team_id = team_id
 
@@ -327,7 +336,8 @@ class Workflow(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -352,7 +362,8 @@ class Workflow(object):
         :type: int
         """
         if default_state_id is None:
-            raise ValueError("Invalid value for `default_state_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._default_state_id = default_state_id
 

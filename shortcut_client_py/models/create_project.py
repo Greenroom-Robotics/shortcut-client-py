@@ -157,7 +157,8 @@ class CreateProject(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -274,7 +275,8 @@ class CreateProject(object):
         :type: int
         """
         if team_id is None:
-            raise ValueError("Invalid value for `team_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._team_id = team_id
 

@@ -74,7 +74,8 @@ class HistoryReferenceBranch(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -99,7 +100,8 @@ class HistoryReferenceBranch(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -124,7 +126,8 @@ class HistoryReferenceBranch(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -149,7 +152,8 @@ class HistoryReferenceBranch(object):
         :type: str
         """
         if url is None:
-            raise ValueError("Invalid value for `url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url = url
 

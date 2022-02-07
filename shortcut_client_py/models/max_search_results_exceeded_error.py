@@ -70,7 +70,8 @@ class MaxSearchResultsExceededError(object):
         :type: str
         """
         if error is None:
-            raise ValueError("Invalid value for `error`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["maximum-results-exceeded"]  # noqa: E501
         if error not in allowed_values:
             raise ValueError(
@@ -101,7 +102,8 @@ class MaxSearchResultsExceededError(object):
         :type: str
         """
         if message is None:
-            raise ValueError("Invalid value for `message`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._message = message
 
@@ -126,7 +128,8 @@ class MaxSearchResultsExceededError(object):
         :type: int
         """
         if maximum_results is None:
-            raise ValueError("Invalid value for `maximum_results`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = [1000]  # noqa: E501
         if maximum_results not in allowed_values:
             raise ValueError(

@@ -131,7 +131,8 @@ class Milestone(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -156,7 +157,8 @@ class Milestone(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -181,7 +183,8 @@ class Milestone(object):
         :type: bool
         """
         if started is None:
-            raise ValueError("Invalid value for `started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started = started
 
@@ -206,7 +209,8 @@ class Milestone(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -231,7 +235,8 @@ class Milestone(object):
         :type: datetime
         """
         if completed_at_override is None:
-            raise ValueError("Invalid value for `completed_at_override`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at_override = completed_at_override
 
@@ -256,7 +261,8 @@ class Milestone(object):
         :type: datetime
         """
         if started_at is None:
-            raise ValueError("Invalid value for `started_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started_at = started_at
 
@@ -281,7 +287,8 @@ class Milestone(object):
         :type: datetime
         """
         if completed_at is None:
-            raise ValueError("Invalid value for `completed_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at = completed_at
 
@@ -306,7 +313,8 @@ class Milestone(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -329,7 +337,8 @@ class Milestone(object):
         :type: str
         """
         if global_id is None:
-            raise ValueError("Invalid value for `global_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._global_id = global_id
 
@@ -354,7 +363,8 @@ class Milestone(object):
         :type: bool
         """
         if completed is None:
-            raise ValueError("Invalid value for `completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed = completed
 
@@ -379,7 +389,8 @@ class Milestone(object):
         :type: str
         """
         if state is None:
-            raise ValueError("Invalid value for `state`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._state = state
 
@@ -404,7 +415,8 @@ class Milestone(object):
         :type: datetime
         """
         if started_at_override is None:
-            raise ValueError("Invalid value for `started_at_override`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started_at_override = started_at_override
 
@@ -429,7 +441,8 @@ class Milestone(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -454,7 +467,8 @@ class Milestone(object):
         :type: list[Category]
         """
         if categories is None:
-            raise ValueError("Invalid value for `categories`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._categories = categories
 
@@ -479,7 +493,8 @@ class Milestone(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -504,7 +519,8 @@ class Milestone(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -550,7 +566,8 @@ class Milestone(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

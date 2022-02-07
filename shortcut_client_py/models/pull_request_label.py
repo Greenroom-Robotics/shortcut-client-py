@@ -79,7 +79,8 @@ class PullRequestLabel(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -104,7 +105,8 @@ class PullRequestLabel(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -129,7 +131,8 @@ class PullRequestLabel(object):
         :type: str
         """
         if color is None:
-            raise ValueError("Invalid value for `color`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._color = color
 
@@ -177,7 +180,8 @@ class PullRequestLabel(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 

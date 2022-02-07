@@ -104,7 +104,8 @@ class IterationStats(object):
         :type: int
         """
         if num_points_done is None:
-            raise ValueError("Invalid value for `num_points_done`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_done = num_points_done
 
@@ -129,7 +130,8 @@ class IterationStats(object):
         :type: int
         """
         if num_related_documents is None:
-            raise ValueError("Invalid value for `num_related_documents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_related_documents = num_related_documents
 
@@ -177,7 +179,8 @@ class IterationStats(object):
         :type: int
         """
         if num_stories_unstarted is None:
-            raise ValueError("Invalid value for `num_stories_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_unstarted = num_stories_unstarted
 
@@ -202,7 +205,8 @@ class IterationStats(object):
         :type: int
         """
         if num_points_started is None:
-            raise ValueError("Invalid value for `num_points_started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_started = num_points_started
 
@@ -227,7 +231,8 @@ class IterationStats(object):
         :type: int
         """
         if num_points_unstarted is None:
-            raise ValueError("Invalid value for `num_points_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_unstarted = num_points_unstarted
 
@@ -252,7 +257,8 @@ class IterationStats(object):
         :type: int
         """
         if num_stories_started is None:
-            raise ValueError("Invalid value for `num_stories_started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_started = num_stories_started
 
@@ -277,7 +283,8 @@ class IterationStats(object):
         :type: int
         """
         if num_stories_unestimated is None:
-            raise ValueError("Invalid value for `num_stories_unestimated`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_unestimated = num_stories_unestimated
 
@@ -325,7 +332,8 @@ class IterationStats(object):
         :type: int
         """
         if num_points is None:
-            raise ValueError("Invalid value for `num_points`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points = num_points
 
@@ -350,7 +358,8 @@ class IterationStats(object):
         :type: int
         """
         if num_stories_done is None:
-            raise ValueError("Invalid value for `num_stories_done`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_done = num_stories_done
 

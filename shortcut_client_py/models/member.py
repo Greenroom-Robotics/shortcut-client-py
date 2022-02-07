@@ -107,7 +107,8 @@ class Member(object):
         :type: str
         """
         if role is None:
-            raise ValueError("Invalid value for `role`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._role = role
 
@@ -132,7 +133,8 @@ class Member(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -157,7 +159,8 @@ class Member(object):
         :type: bool
         """
         if disabled is None:
-            raise ValueError("Invalid value for `disabled`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._disabled = disabled
 
@@ -180,7 +183,8 @@ class Member(object):
         :type: str
         """
         if global_id is None:
-            raise ValueError("Invalid value for `global_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._global_id = global_id
 
@@ -205,7 +209,8 @@ class Member(object):
         :type: str
         """
         if state is None:
-            raise ValueError("Invalid value for `state`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["partial", "full", "disabled", "imported"]  # noqa: E501
         if state not in allowed_values:
             raise ValueError(
@@ -236,7 +241,8 @@ class Member(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -261,7 +267,8 @@ class Member(object):
         :type: bool
         """
         if created_without_invite is None:
-            raise ValueError("Invalid value for `created_without_invite`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_without_invite = created_without_invite
 
@@ -286,7 +293,8 @@ class Member(object):
         :type: list[str]
         """
         if group_ids is None:
-            raise ValueError("Invalid value for `group_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_ids = group_ids
 
@@ -311,7 +319,8 @@ class Member(object):
         :type: str
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -334,7 +343,8 @@ class Member(object):
         :type: Profile
         """
         if profile is None:
-            raise ValueError("Invalid value for `profile`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._profile = profile
 
@@ -359,7 +369,8 @@ class Member(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

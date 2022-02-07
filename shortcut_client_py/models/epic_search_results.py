@@ -75,7 +75,8 @@ class EpicSearchResults(object):
         :type: int
         """
         if total is None:
-            raise ValueError("Invalid value for `total`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._total = total
 
@@ -100,7 +101,8 @@ class EpicSearchResults(object):
         :type: list[Epic]
         """
         if data is None:
-            raise ValueError("Invalid value for `data`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._data = data
 
@@ -125,7 +127,8 @@ class EpicSearchResults(object):
         :type: str
         """
         if next is None:
-            raise ValueError("Invalid value for `next`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._next = next
 

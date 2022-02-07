@@ -62,7 +62,8 @@ class CreateStories(object):
         :type: list[CreateStoryParams]
         """
         if stories is None:
-            raise ValueError("Invalid value for `stories`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stories = stories
 

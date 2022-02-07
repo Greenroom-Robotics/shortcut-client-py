@@ -90,7 +90,8 @@ class EntityTemplate(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -115,7 +116,8 @@ class EntityTemplate(object):
         :type: str
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -140,7 +142,8 @@ class EntityTemplate(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -165,7 +168,8 @@ class EntityTemplate(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -190,7 +194,8 @@ class EntityTemplate(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -215,7 +220,8 @@ class EntityTemplate(object):
         :type: str
         """
         if author_id is None:
-            raise ValueError("Invalid value for `author_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._author_id = author_id
 
@@ -240,7 +246,8 @@ class EntityTemplate(object):
         :type: datetime
         """
         if last_used_at is None:
-            raise ValueError("Invalid value for `last_used_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._last_used_at = last_used_at
 
@@ -263,7 +270,8 @@ class EntityTemplate(object):
         :type: StoryContents
         """
         if story_contents is None:
-            raise ValueError("Invalid value for `story_contents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_contents = story_contents
 

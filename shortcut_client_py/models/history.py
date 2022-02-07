@@ -99,7 +99,8 @@ class History(object):
         :type: str
         """
         if changed_at is None:
-            raise ValueError("Invalid value for `changed_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._changed_at = changed_at
 
@@ -170,7 +171,8 @@ class History(object):
         :type: list[object]
         """
         if actions is None:
-            raise ValueError("Invalid value for `actions`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._actions = actions
 
@@ -241,7 +243,8 @@ class History(object):
         :type: str
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -266,7 +269,8 @@ class History(object):
         :type: str
         """
         if version is None:
-            raise ValueError("Invalid value for `version`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["v1"]  # noqa: E501
         if version not in allowed_values:
             raise ValueError(

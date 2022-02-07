@@ -105,7 +105,8 @@ class V3FilesBody(object):
         :type: str
         """
         if file0 is None:
-            raise ValueError("Invalid value for `file0`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._file0 = file0
 

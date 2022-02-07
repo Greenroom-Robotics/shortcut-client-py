@@ -77,7 +77,8 @@ class Search(object):
         :type: str
         """
         if query is None:
-            raise ValueError("Invalid value for `query`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._query = query
 

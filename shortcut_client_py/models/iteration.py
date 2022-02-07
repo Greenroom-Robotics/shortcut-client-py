@@ -130,7 +130,8 @@ class Iteration(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -155,7 +156,8 @@ class Iteration(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -180,7 +182,8 @@ class Iteration(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -205,7 +208,8 @@ class Iteration(object):
         :type: list[Label]
         """
         if labels is None:
-            raise ValueError("Invalid value for `labels`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._labels = labels
 
@@ -230,7 +234,8 @@ class Iteration(object):
         :type: list[str]
         """
         if mention_ids is None:
-            raise ValueError("Invalid value for `mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_ids = mention_ids
 
@@ -255,7 +260,8 @@ class Iteration(object):
         :type: list[str]
         """
         if member_mention_ids is None:
-            raise ValueError("Invalid value for `member_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_mention_ids = member_mention_ids
 
@@ -280,7 +286,8 @@ class Iteration(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -305,7 +312,8 @@ class Iteration(object):
         :type: list[int]
         """
         if label_ids is None:
-            raise ValueError("Invalid value for `label_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._label_ids = label_ids
 
@@ -330,7 +338,8 @@ class Iteration(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -355,7 +364,8 @@ class Iteration(object):
         :type: list[str]
         """
         if group_mention_ids is None:
-            raise ValueError("Invalid value for `group_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_mention_ids = group_mention_ids
 
@@ -380,7 +390,8 @@ class Iteration(object):
         :type: datetime
         """
         if end_date is None:
-            raise ValueError("Invalid value for `end_date`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._end_date = end_date
 
@@ -405,7 +416,8 @@ class Iteration(object):
         :type: list[str]
         """
         if follower_ids is None:
-            raise ValueError("Invalid value for `follower_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._follower_ids = follower_ids
 
@@ -430,7 +442,8 @@ class Iteration(object):
         :type: list[str]
         """
         if group_ids is None:
-            raise ValueError("Invalid value for `group_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_ids = group_ids
 
@@ -455,7 +468,8 @@ class Iteration(object):
         :type: datetime
         """
         if start_date is None:
-            raise ValueError("Invalid value for `start_date`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._start_date = start_date
 
@@ -480,7 +494,8 @@ class Iteration(object):
         :type: str
         """
         if status is None:
-            raise ValueError("Invalid value for `status`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._status = status
 
@@ -505,7 +520,8 @@ class Iteration(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -528,7 +544,8 @@ class Iteration(object):
         :type: IterationStats
         """
         if stats is None:
-            raise ValueError("Invalid value for `stats`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stats = stats
 
@@ -553,7 +570,8 @@ class Iteration(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

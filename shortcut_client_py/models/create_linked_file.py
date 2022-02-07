@@ -146,7 +146,8 @@ class CreateLinkedFile(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -194,7 +195,8 @@ class CreateLinkedFile(object):
         :type: str
         """
         if type is None:
-            raise ValueError("Invalid value for `type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["google", "url", "dropbox", "box", "onedrive"]  # noqa: E501
         if type not in allowed_values:
             raise ValueError(
@@ -294,7 +296,8 @@ class CreateLinkedFile(object):
         :type: str
         """
         if url is None:
-            raise ValueError("Invalid value for `url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url = url
 

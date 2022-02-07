@@ -95,7 +95,8 @@ class CreateStoryLinkParams(object):
         :type: str
         """
         if verb is None:
-            raise ValueError("Invalid value for `verb`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["blocks", "duplicates", "relates to"]  # noqa: E501
         if verb not in allowed_values:
             raise ValueError(

@@ -182,7 +182,8 @@ class CreateIteration(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -207,7 +208,8 @@ class CreateIteration(object):
         :type: str
         """
         if start_date is None:
-            raise ValueError("Invalid value for `start_date`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._start_date = start_date
 
@@ -232,7 +234,8 @@ class CreateIteration(object):
         :type: str
         """
         if end_date is None:
-            raise ValueError("Invalid value for `end_date`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._end_date = end_date
 

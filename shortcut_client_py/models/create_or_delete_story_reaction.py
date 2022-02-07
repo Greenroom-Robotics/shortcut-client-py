@@ -62,7 +62,8 @@ class CreateOrDeleteStoryReaction(object):
         :type: str
         """
         if emoji is None:
-            raise ValueError("Invalid value for `emoji`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._emoji = emoji
 

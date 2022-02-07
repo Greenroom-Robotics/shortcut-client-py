@@ -70,7 +70,8 @@ class ProjectStats(object):
         :type: int
         """
         if num_stories is None:
-            raise ValueError("Invalid value for `num_stories`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories = num_stories
 
@@ -95,7 +96,8 @@ class ProjectStats(object):
         :type: int
         """
         if num_points is None:
-            raise ValueError("Invalid value for `num_points`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points = num_points
 
@@ -120,7 +122,8 @@ class ProjectStats(object):
         :type: int
         """
         if num_related_documents is None:
-            raise ValueError("Invalid value for `num_related_documents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_related_documents = num_related_documents
 

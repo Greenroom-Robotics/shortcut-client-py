@@ -118,7 +118,8 @@ class LabelStats(object):
         :type: int
         """
         if num_related_documents is None:
-            raise ValueError("Invalid value for `num_related_documents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_related_documents = num_related_documents
 
@@ -143,7 +144,8 @@ class LabelStats(object):
         :type: int
         """
         if num_epics is None:
-            raise ValueError("Invalid value for `num_epics`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_epics = num_epics
 
@@ -168,7 +170,8 @@ class LabelStats(object):
         :type: int
         """
         if num_stories_unstarted is None:
-            raise ValueError("Invalid value for `num_stories_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_unstarted = num_stories_unstarted
 
@@ -193,7 +196,8 @@ class LabelStats(object):
         :type: int
         """
         if num_stories_total is None:
-            raise ValueError("Invalid value for `num_stories_total`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_total = num_stories_total
 
@@ -218,7 +222,8 @@ class LabelStats(object):
         :type: int
         """
         if num_epics_unstarted is None:
-            raise ValueError("Invalid value for `num_epics_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_epics_unstarted = num_epics_unstarted
 
@@ -243,7 +248,8 @@ class LabelStats(object):
         :type: int
         """
         if num_epics_in_progress is None:
-            raise ValueError("Invalid value for `num_epics_in_progress`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_epics_in_progress = num_epics_in_progress
 
@@ -268,7 +274,8 @@ class LabelStats(object):
         :type: int
         """
         if num_points_unstarted is None:
-            raise ValueError("Invalid value for `num_points_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_unstarted = num_points_unstarted
 
@@ -293,7 +300,8 @@ class LabelStats(object):
         :type: int
         """
         if num_stories_unestimated is None:
-            raise ValueError("Invalid value for `num_stories_unestimated`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_unestimated = num_stories_unestimated
 
@@ -318,7 +326,8 @@ class LabelStats(object):
         :type: int
         """
         if num_points_in_progress is None:
-            raise ValueError("Invalid value for `num_points_in_progress`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_in_progress = num_points_in_progress
 
@@ -343,7 +352,8 @@ class LabelStats(object):
         :type: int
         """
         if num_epics_total is None:
-            raise ValueError("Invalid value for `num_epics_total`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_epics_total = num_epics_total
 
@@ -368,7 +378,8 @@ class LabelStats(object):
         :type: int
         """
         if num_stories_completed is None:
-            raise ValueError("Invalid value for `num_stories_completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_completed = num_stories_completed
 
@@ -393,7 +404,8 @@ class LabelStats(object):
         :type: int
         """
         if num_points_completed is None:
-            raise ValueError("Invalid value for `num_points_completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_completed = num_points_completed
 
@@ -418,7 +430,8 @@ class LabelStats(object):
         :type: int
         """
         if num_points_total is None:
-            raise ValueError("Invalid value for `num_points_total`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_total = num_points_total
 
@@ -443,7 +456,8 @@ class LabelStats(object):
         :type: int
         """
         if num_stories_in_progress is None:
-            raise ValueError("Invalid value for `num_stories_in_progress`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_in_progress = num_stories_in_progress
 
@@ -468,7 +482,8 @@ class LabelStats(object):
         :type: int
         """
         if num_epics_completed is None:
-            raise ValueError("Invalid value for `num_epics_completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_epics_completed = num_epics_completed
 

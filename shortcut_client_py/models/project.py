@@ -134,7 +134,8 @@ class Project(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -159,7 +160,8 @@ class Project(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -184,7 +186,8 @@ class Project(object):
         :type: bool
         """
         if archived is None:
-            raise ValueError("Invalid value for `archived`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._archived = archived
 
@@ -209,7 +212,8 @@ class Project(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -234,7 +238,8 @@ class Project(object):
         :type: int
         """
         if days_to_thermometer is None:
-            raise ValueError("Invalid value for `days_to_thermometer`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._days_to_thermometer = days_to_thermometer
 
@@ -259,7 +264,8 @@ class Project(object):
         :type: str
         """
         if color is None:
-            raise ValueError("Invalid value for `color`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._color = color
 
@@ -284,7 +290,8 @@ class Project(object):
         :type: int
         """
         if workflow_id is None:
-            raise ValueError("Invalid value for `workflow_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._workflow_id = workflow_id
 
@@ -309,7 +316,8 @@ class Project(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -334,7 +342,8 @@ class Project(object):
         :type: datetime
         """
         if start_time is None:
-            raise ValueError("Invalid value for `start_time`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._start_time = start_time
 
@@ -359,7 +368,8 @@ class Project(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -384,7 +394,8 @@ class Project(object):
         :type: list[str]
         """
         if follower_ids is None:
-            raise ValueError("Invalid value for `follower_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._follower_ids = follower_ids
 
@@ -409,7 +420,8 @@ class Project(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -434,7 +446,8 @@ class Project(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -459,7 +472,8 @@ class Project(object):
         :type: bool
         """
         if show_thermometer is None:
-            raise ValueError("Invalid value for `show_thermometer`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._show_thermometer = show_thermometer
 
@@ -484,7 +498,8 @@ class Project(object):
         :type: int
         """
         if team_id is None:
-            raise ValueError("Invalid value for `team_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._team_id = team_id
 
@@ -509,7 +524,8 @@ class Project(object):
         :type: int
         """
         if iteration_length is None:
-            raise ValueError("Invalid value for `iteration_length`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._iteration_length = iteration_length
 
@@ -534,7 +550,8 @@ class Project(object):
         :type: str
         """
         if abbreviation is None:
-            raise ValueError("Invalid value for `abbreviation`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._abbreviation = abbreviation
 
@@ -557,7 +574,8 @@ class Project(object):
         :type: ProjectStats
         """
         if stats is None:
-            raise ValueError("Invalid value for `stats`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stats = stats
 
@@ -582,7 +600,8 @@ class Project(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

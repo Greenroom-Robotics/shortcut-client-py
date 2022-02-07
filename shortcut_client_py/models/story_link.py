@@ -90,7 +90,8 @@ class StoryLink(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -115,7 +116,8 @@ class StoryLink(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -140,7 +142,8 @@ class StoryLink(object):
         :type: int
         """
         if subject_id is None:
-            raise ValueError("Invalid value for `subject_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._subject_id = subject_id
 
@@ -165,7 +168,8 @@ class StoryLink(object):
         :type: int
         """
         if subject_workflow_state_id is None:
-            raise ValueError("Invalid value for `subject_workflow_state_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._subject_workflow_state_id = subject_workflow_state_id
 
@@ -190,7 +194,8 @@ class StoryLink(object):
         :type: str
         """
         if verb is None:
-            raise ValueError("Invalid value for `verb`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._verb = verb
 
@@ -215,7 +220,8 @@ class StoryLink(object):
         :type: int
         """
         if object_id is None:
-            raise ValueError("Invalid value for `object_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._object_id = object_id
 
@@ -240,7 +246,8 @@ class StoryLink(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -265,7 +272,8 @@ class StoryLink(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 

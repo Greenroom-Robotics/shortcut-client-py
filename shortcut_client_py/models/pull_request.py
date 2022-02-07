@@ -149,7 +149,8 @@ class PullRequest(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -174,7 +175,8 @@ class PullRequest(object):
         :type: bool
         """
         if closed is None:
-            raise ValueError("Invalid value for `closed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._closed = closed
 
@@ -199,7 +201,8 @@ class PullRequest(object):
         :type: bool
         """
         if merged is None:
-            raise ValueError("Invalid value for `merged`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._merged = merged
 
@@ -224,7 +227,8 @@ class PullRequest(object):
         :type: int
         """
         if num_added is None:
-            raise ValueError("Invalid value for `num_added`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_added = num_added
 
@@ -249,7 +253,8 @@ class PullRequest(object):
         :type: int
         """
         if branch_id is None:
-            raise ValueError("Invalid value for `branch_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._branch_id = branch_id
 
@@ -274,7 +279,8 @@ class PullRequest(object):
         :type: int
         """
         if number is None:
-            raise ValueError("Invalid value for `number`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._number = number
 
@@ -299,7 +305,8 @@ class PullRequest(object):
         :type: str
         """
         if branch_name is None:
-            raise ValueError("Invalid value for `branch_name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._branch_name = branch_name
 
@@ -324,7 +331,8 @@ class PullRequest(object):
         :type: str
         """
         if target_branch_name is None:
-            raise ValueError("Invalid value for `target_branch_name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._target_branch_name = target_branch_name
 
@@ -349,7 +357,8 @@ class PullRequest(object):
         :type: int
         """
         if num_commits is None:
-            raise ValueError("Invalid value for `num_commits`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_commits = num_commits
 
@@ -374,7 +383,8 @@ class PullRequest(object):
         :type: str
         """
         if title is None:
-            raise ValueError("Invalid value for `title`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._title = title
 
@@ -399,7 +409,8 @@ class PullRequest(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -424,7 +435,8 @@ class PullRequest(object):
         :type: bool
         """
         if draft is None:
-            raise ValueError("Invalid value for `draft`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._draft = draft
 
@@ -449,7 +461,8 @@ class PullRequest(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -497,7 +510,8 @@ class PullRequest(object):
         :type: str
         """
         if url is None:
-            raise ValueError("Invalid value for `url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url = url
 
@@ -522,7 +536,8 @@ class PullRequest(object):
         :type: int
         """
         if num_removed is None:
-            raise ValueError("Invalid value for `num_removed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_removed = num_removed
 
@@ -570,7 +585,8 @@ class PullRequest(object):
         :type: int
         """
         if num_modified is None:
-            raise ValueError("Invalid value for `num_modified`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_modified = num_modified
 
@@ -618,7 +634,8 @@ class PullRequest(object):
         :type: int
         """
         if target_branch_id is None:
-            raise ValueError("Invalid value for `target_branch_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._target_branch_id = target_branch_id
 
@@ -643,7 +660,8 @@ class PullRequest(object):
         :type: int
         """
         if repository_id is None:
-            raise ValueError("Invalid value for `repository_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._repository_id = repository_id
 
@@ -668,7 +686,8 @@ class PullRequest(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

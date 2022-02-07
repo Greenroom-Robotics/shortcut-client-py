@@ -64,7 +64,8 @@ class BasicWorkspaceInfo(object):
         :type: str
         """
         if url_slug is None:
-            raise ValueError("Invalid value for `url_slug`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url_slug = url_slug
 
@@ -87,7 +88,8 @@ class BasicWorkspaceInfo(object):
         :type: list[int]
         """
         if estimate_scale is None:
-            raise ValueError("Invalid value for `estimate_scale`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._estimate_scale = estimate_scale
 

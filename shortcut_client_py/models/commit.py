@@ -110,7 +110,8 @@ class Commit(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -135,7 +136,8 @@ class Commit(object):
         :type: str
         """
         if author_id is None:
-            raise ValueError("Invalid value for `author_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._author_id = author_id
 
@@ -160,7 +162,8 @@ class Commit(object):
         :type: str
         """
         if hash is None:
-            raise ValueError("Invalid value for `hash`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._hash = hash
 
@@ -185,7 +188,8 @@ class Commit(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -210,7 +214,8 @@ class Commit(object):
         :type: list[int]
         """
         if merged_branch_ids is None:
-            raise ValueError("Invalid value for `merged_branch_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._merged_branch_ids = merged_branch_ids
 
@@ -235,7 +240,8 @@ class Commit(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -260,7 +266,8 @@ class Commit(object):
         :type: str
         """
         if url is None:
-            raise ValueError("Invalid value for `url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url = url
 
@@ -285,7 +292,8 @@ class Commit(object):
         :type: str
         """
         if author_email is None:
-            raise ValueError("Invalid value for `author_email`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._author_email = author_email
 
@@ -310,7 +318,8 @@ class Commit(object):
         :type: datetime
         """
         if timestamp is None:
-            raise ValueError("Invalid value for `timestamp`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._timestamp = timestamp
 
@@ -333,7 +342,8 @@ class Commit(object):
         :type: Identity
         """
         if author_identity is None:
-            raise ValueError("Invalid value for `author_identity`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._author_identity = author_identity
 
@@ -358,7 +368,8 @@ class Commit(object):
         :type: int
         """
         if repository_id is None:
-            raise ValueError("Invalid value for `repository_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._repository_id = repository_id
 
@@ -383,7 +394,8 @@ class Commit(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -408,7 +420,8 @@ class Commit(object):
         :type: str
         """
         if message is None:
-            raise ValueError("Invalid value for `message`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._message = message
 

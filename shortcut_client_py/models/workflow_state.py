@@ -111,7 +111,8 @@ class WorkflowState(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -136,7 +137,8 @@ class WorkflowState(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -184,7 +186,8 @@ class WorkflowState(object):
         :type: str
         """
         if verb is None:
-            raise ValueError("Invalid value for `verb`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._verb = verb
 
@@ -209,7 +212,8 @@ class WorkflowState(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -232,7 +236,8 @@ class WorkflowState(object):
         :type: str
         """
         if global_id is None:
-            raise ValueError("Invalid value for `global_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._global_id = global_id
 
@@ -257,7 +262,8 @@ class WorkflowState(object):
         :type: int
         """
         if num_stories is None:
-            raise ValueError("Invalid value for `num_stories`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories = num_stories
 
@@ -282,7 +288,8 @@ class WorkflowState(object):
         :type: str
         """
         if type is None:
-            raise ValueError("Invalid value for `type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._type = type
 
@@ -307,7 +314,8 @@ class WorkflowState(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -332,7 +340,8 @@ class WorkflowState(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -357,7 +366,8 @@ class WorkflowState(object):
         :type: int
         """
         if num_story_templates is None:
-            raise ValueError("Invalid value for `num_story_templates`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_story_templates = num_story_templates
 
@@ -382,7 +392,8 @@ class WorkflowState(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -407,7 +418,8 @@ class WorkflowState(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

@@ -64,7 +64,8 @@ class SearchResults(object):
         :type: EpicSearchResults
         """
         if epics is None:
-            raise ValueError("Invalid value for `epics`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._epics = epics
 
@@ -87,7 +88,8 @@ class SearchResults(object):
         :type: StorySearchResults
         """
         if stories is None:
-            raise ValueError("Invalid value for `stories`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stories = stories
 

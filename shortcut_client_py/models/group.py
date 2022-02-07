@@ -122,7 +122,8 @@ class Group(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -147,7 +148,8 @@ class Group(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -172,7 +174,8 @@ class Group(object):
         :type: bool
         """
         if archived is None:
-            raise ValueError("Invalid value for `archived`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._archived = archived
 
@@ -197,7 +200,8 @@ class Group(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -222,7 +226,8 @@ class Group(object):
         :type: str
         """
         if color is None:
-            raise ValueError("Invalid value for `color`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._color = color
 
@@ -247,7 +252,8 @@ class Group(object):
         :type: int
         """
         if num_stories_started is None:
-            raise ValueError("Invalid value for `num_stories_started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_started = num_stories_started
 
@@ -272,7 +278,8 @@ class Group(object):
         :type: str
         """
         if mention_name is None:
-            raise ValueError("Invalid value for `mention_name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_name = mention_name
 
@@ -297,7 +304,8 @@ class Group(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -322,7 +330,8 @@ class Group(object):
         :type: str
         """
         if color_key is None:
-            raise ValueError("Invalid value for `color_key`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["blue", "purple", "midnight-blue", "orange", "yellow-green", "brass", "gray", "fuchsia", "yellow", "pink", "sky-blue", "green", "red", "black", "slate", "turquoise"]  # noqa: E501
         if color_key not in allowed_values:
             raise ValueError(
@@ -353,7 +362,8 @@ class Group(object):
         :type: int
         """
         if num_stories is None:
-            raise ValueError("Invalid value for `num_stories`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories = num_stories
 
@@ -378,7 +388,8 @@ class Group(object):
         :type: int
         """
         if num_epics_started is None:
-            raise ValueError("Invalid value for `num_epics_started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_epics_started = num_epics_started
 
@@ -403,7 +414,8 @@ class Group(object):
         :type: str
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -426,7 +438,8 @@ class Group(object):
         :type: Icon
         """
         if display_icon is None:
-            raise ValueError("Invalid value for `display_icon`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._display_icon = display_icon
 
@@ -451,7 +464,8 @@ class Group(object):
         :type: list[str]
         """
         if member_ids is None:
-            raise ValueError("Invalid value for `member_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_ids = member_ids
 
@@ -476,7 +490,8 @@ class Group(object):
         :type: list[int]
         """
         if story_workflow_ids is None:
-            raise ValueError("Invalid value for `story_workflow_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_workflow_ids = story_workflow_ids
 
@@ -501,7 +516,8 @@ class Group(object):
         :type: list[int]
         """
         if workflow_ids is None:
-            raise ValueError("Invalid value for `workflow_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._workflow_ids = workflow_ids
 

@@ -165,7 +165,8 @@ class CreateGroup(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -190,7 +191,8 @@ class CreateGroup(object):
         :type: str
         """
         if mention_name is None:
-            raise ValueError("Invalid value for `mention_name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_name = mention_name
 

@@ -107,7 +107,8 @@ class Label(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -132,7 +133,8 @@ class Label(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -157,7 +159,8 @@ class Label(object):
         :type: bool
         """
         if archived is None:
-            raise ValueError("Invalid value for `archived`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._archived = archived
 
@@ -182,7 +185,8 @@ class Label(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -207,7 +211,8 @@ class Label(object):
         :type: str
         """
         if color is None:
-            raise ValueError("Invalid value for `color`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._color = color
 
@@ -232,7 +237,8 @@ class Label(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -255,7 +261,8 @@ class Label(object):
         :type: str
         """
         if global_id is None:
-            raise ValueError("Invalid value for `global_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._global_id = global_id
 
@@ -280,7 +287,8 @@ class Label(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -305,7 +313,8 @@ class Label(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -330,7 +339,8 @@ class Label(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -376,7 +386,8 @@ class Label(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

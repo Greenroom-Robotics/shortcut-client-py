@@ -258,7 +258,8 @@ class StorySlim(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -306,7 +307,8 @@ class StorySlim(object):
         :type: bool
         """
         if archived is None:
-            raise ValueError("Invalid value for `archived`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._archived = archived
 
@@ -331,7 +333,8 @@ class StorySlim(object):
         :type: bool
         """
         if started is None:
-            raise ValueError("Invalid value for `started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started = started
 
@@ -356,7 +359,8 @@ class StorySlim(object):
         :type: list[TypedStoryLink]
         """
         if story_links is None:
-            raise ValueError("Invalid value for `story_links`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_links = story_links
 
@@ -381,7 +385,8 @@ class StorySlim(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -406,7 +411,8 @@ class StorySlim(object):
         :type: list[LabelSlim]
         """
         if labels is None:
-            raise ValueError("Invalid value for `labels`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._labels = labels
 
@@ -431,7 +437,8 @@ class StorySlim(object):
         :type: list[int]
         """
         if task_ids is None:
-            raise ValueError("Invalid value for `task_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._task_ids = task_ids
 
@@ -456,7 +463,8 @@ class StorySlim(object):
         :type: list[str]
         """
         if mention_ids is None:
-            raise ValueError("Invalid value for `mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_ids = mention_ids
 
@@ -481,7 +489,8 @@ class StorySlim(object):
         :type: list[str]
         """
         if member_mention_ids is None:
-            raise ValueError("Invalid value for `member_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_mention_ids = member_mention_ids
 
@@ -506,7 +515,8 @@ class StorySlim(object):
         :type: str
         """
         if story_type is None:
-            raise ValueError("Invalid value for `story_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_type = story_type
 
@@ -554,7 +564,8 @@ class StorySlim(object):
         :type: list[int]
         """
         if file_ids is None:
-            raise ValueError("Invalid value for `file_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._file_ids = file_ids
 
@@ -579,7 +590,8 @@ class StorySlim(object):
         :type: int
         """
         if num_tasks_completed is None:
-            raise ValueError("Invalid value for `num_tasks_completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_tasks_completed = num_tasks_completed
 
@@ -604,7 +616,8 @@ class StorySlim(object):
         :type: int
         """
         if workflow_id is None:
-            raise ValueError("Invalid value for `workflow_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._workflow_id = workflow_id
 
@@ -629,7 +642,8 @@ class StorySlim(object):
         :type: datetime
         """
         if completed_at_override is None:
-            raise ValueError("Invalid value for `completed_at_override`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at_override = completed_at_override
 
@@ -654,7 +668,8 @@ class StorySlim(object):
         :type: datetime
         """
         if started_at is None:
-            raise ValueError("Invalid value for `started_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started_at = started_at
 
@@ -679,7 +694,8 @@ class StorySlim(object):
         :type: datetime
         """
         if completed_at is None:
-            raise ValueError("Invalid value for `completed_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at = completed_at
 
@@ -704,7 +720,8 @@ class StorySlim(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -729,7 +746,8 @@ class StorySlim(object):
         :type: bool
         """
         if completed is None:
-            raise ValueError("Invalid value for `completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed = completed
 
@@ -754,7 +772,8 @@ class StorySlim(object):
         :type: bool
         """
         if blocker is None:
-            raise ValueError("Invalid value for `blocker`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._blocker = blocker
 
@@ -779,7 +798,8 @@ class StorySlim(object):
         :type: int
         """
         if epic_id is None:
-            raise ValueError("Invalid value for `epic_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._epic_id = epic_id
 
@@ -804,7 +824,8 @@ class StorySlim(object):
         :type: str
         """
         if story_template_id is None:
-            raise ValueError("Invalid value for `story_template_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_template_id = story_template_id
 
@@ -829,7 +850,8 @@ class StorySlim(object):
         :type: list[str]
         """
         if external_links is None:
-            raise ValueError("Invalid value for `external_links`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_links = external_links
 
@@ -854,7 +876,8 @@ class StorySlim(object):
         :type: list[int]
         """
         if previous_iteration_ids is None:
-            raise ValueError("Invalid value for `previous_iteration_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._previous_iteration_ids = previous_iteration_ids
 
@@ -879,7 +902,8 @@ class StorySlim(object):
         :type: str
         """
         if requested_by_id is None:
-            raise ValueError("Invalid value for `requested_by_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._requested_by_id = requested_by_id
 
@@ -904,7 +928,8 @@ class StorySlim(object):
         :type: int
         """
         if iteration_id is None:
-            raise ValueError("Invalid value for `iteration_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._iteration_id = iteration_id
 
@@ -929,7 +954,8 @@ class StorySlim(object):
         :type: list[int]
         """
         if label_ids is None:
-            raise ValueError("Invalid value for `label_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._label_ids = label_ids
 
@@ -954,7 +980,8 @@ class StorySlim(object):
         :type: datetime
         """
         if started_at_override is None:
-            raise ValueError("Invalid value for `started_at_override`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started_at_override = started_at_override
 
@@ -979,7 +1006,8 @@ class StorySlim(object):
         :type: str
         """
         if group_id is None:
-            raise ValueError("Invalid value for `group_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_id = group_id
 
@@ -1004,7 +1032,8 @@ class StorySlim(object):
         :type: int
         """
         if workflow_state_id is None:
-            raise ValueError("Invalid value for `workflow_state_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._workflow_state_id = workflow_state_id
 
@@ -1029,7 +1058,8 @@ class StorySlim(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -1054,7 +1084,8 @@ class StorySlim(object):
         :type: list[str]
         """
         if group_mention_ids is None:
-            raise ValueError("Invalid value for `group_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_mention_ids = group_mention_ids
 
@@ -1079,7 +1110,8 @@ class StorySlim(object):
         :type: list[str]
         """
         if follower_ids is None:
-            raise ValueError("Invalid value for `follower_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._follower_ids = follower_ids
 
@@ -1104,7 +1136,8 @@ class StorySlim(object):
         :type: list[str]
         """
         if owner_ids is None:
-            raise ValueError("Invalid value for `owner_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._owner_ids = owner_ids
 
@@ -1129,7 +1162,8 @@ class StorySlim(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -1154,7 +1188,8 @@ class StorySlim(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -1202,7 +1237,8 @@ class StorySlim(object):
         :type: int
         """
         if estimate is None:
-            raise ValueError("Invalid value for `estimate`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._estimate = estimate
 
@@ -1227,7 +1263,8 @@ class StorySlim(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -1252,7 +1289,8 @@ class StorySlim(object):
         :type: bool
         """
         if blocked is None:
-            raise ValueError("Invalid value for `blocked`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._blocked = blocked
 
@@ -1277,7 +1315,8 @@ class StorySlim(object):
         :type: int
         """
         if project_id is None:
-            raise ValueError("Invalid value for `project_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._project_id = project_id
 
@@ -1302,7 +1341,8 @@ class StorySlim(object):
         :type: list[int]
         """
         if linked_file_ids is None:
-            raise ValueError("Invalid value for `linked_file_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._linked_file_ids = linked_file_ids
 
@@ -1327,7 +1367,8 @@ class StorySlim(object):
         :type: datetime
         """
         if deadline is None:
-            raise ValueError("Invalid value for `deadline`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._deadline = deadline
 
@@ -1350,7 +1391,8 @@ class StorySlim(object):
         :type: StoryStats
         """
         if stats is None:
-            raise ValueError("Invalid value for `stats`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stats = stats
 
@@ -1375,7 +1417,8 @@ class StorySlim(object):
         :type: list[int]
         """
         if comment_ids is None:
-            raise ValueError("Invalid value for `comment_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._comment_ids = comment_ids
 
@@ -1423,7 +1466,8 @@ class StorySlim(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -1448,7 +1492,8 @@ class StorySlim(object):
         :type: datetime
         """
         if moved_at is None:
-            raise ValueError("Invalid value for `moved_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._moved_at = moved_at
 

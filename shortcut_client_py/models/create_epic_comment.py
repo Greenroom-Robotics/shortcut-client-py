@@ -82,7 +82,8 @@ class CreateEpicComment(object):
         :type: str
         """
         if text is None:
-            raise ValueError("Invalid value for `text`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._text = text
 

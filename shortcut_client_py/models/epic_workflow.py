@@ -82,7 +82,8 @@ class EpicWorkflow(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -107,7 +108,8 @@ class EpicWorkflow(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -132,7 +134,8 @@ class EpicWorkflow(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -157,7 +160,8 @@ class EpicWorkflow(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -182,7 +186,8 @@ class EpicWorkflow(object):
         :type: int
         """
         if default_epic_state_id is None:
-            raise ValueError("Invalid value for `default_epic_state_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._default_epic_state_id = default_epic_state_id
 
@@ -207,7 +212,8 @@ class EpicWorkflow(object):
         :type: list[EpicState]
         """
         if epic_states is None:
-            raise ValueError("Invalid value for `epic_states`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._epic_states = epic_states
 

@@ -112,7 +112,8 @@ class EpicStats(object):
         :type: int
         """
         if num_points_done is None:
-            raise ValueError("Invalid value for `num_points_done`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_done = num_points_done
 
@@ -137,7 +138,8 @@ class EpicStats(object):
         :type: int
         """
         if num_related_documents is None:
-            raise ValueError("Invalid value for `num_related_documents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_related_documents = num_related_documents
 
@@ -185,7 +187,8 @@ class EpicStats(object):
         :type: int
         """
         if num_stories_unstarted is None:
-            raise ValueError("Invalid value for `num_stories_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_unstarted = num_stories_unstarted
 
@@ -210,7 +213,8 @@ class EpicStats(object):
         :type: int
         """
         if num_stories_total is None:
-            raise ValueError("Invalid value for `num_stories_total`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_total = num_stories_total
 
@@ -235,7 +239,8 @@ class EpicStats(object):
         :type: datetime
         """
         if last_story_update is None:
-            raise ValueError("Invalid value for `last_story_update`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._last_story_update = last_story_update
 
@@ -260,7 +265,8 @@ class EpicStats(object):
         :type: int
         """
         if num_points_started is None:
-            raise ValueError("Invalid value for `num_points_started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_started = num_points_started
 
@@ -285,7 +291,8 @@ class EpicStats(object):
         :type: int
         """
         if num_points_unstarted is None:
-            raise ValueError("Invalid value for `num_points_unstarted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points_unstarted = num_points_unstarted
 
@@ -310,7 +317,8 @@ class EpicStats(object):
         :type: int
         """
         if num_stories_started is None:
-            raise ValueError("Invalid value for `num_stories_started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_started = num_stories_started
 
@@ -335,7 +343,8 @@ class EpicStats(object):
         :type: int
         """
         if num_stories_unestimated is None:
-            raise ValueError("Invalid value for `num_stories_unestimated`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_unestimated = num_stories_unestimated
 
@@ -383,7 +392,8 @@ class EpicStats(object):
         :type: int
         """
         if num_points is None:
-            raise ValueError("Invalid value for `num_points`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_points = num_points
 
@@ -408,7 +418,8 @@ class EpicStats(object):
         :type: int
         """
         if num_stories_done is None:
-            raise ValueError("Invalid value for `num_stories_done`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_stories_done = num_stories_done
 

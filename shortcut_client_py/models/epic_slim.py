@@ -211,7 +211,8 @@ class EpicSlim(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -259,7 +260,8 @@ class EpicSlim(object):
         :type: bool
         """
         if archived is None:
-            raise ValueError("Invalid value for `archived`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._archived = archived
 
@@ -284,7 +286,8 @@ class EpicSlim(object):
         :type: bool
         """
         if started is None:
-            raise ValueError("Invalid value for `started`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started = started
 
@@ -309,7 +312,8 @@ class EpicSlim(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -334,7 +338,8 @@ class EpicSlim(object):
         :type: list[LabelSlim]
         """
         if labels is None:
-            raise ValueError("Invalid value for `labels`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._labels = labels
 
@@ -359,7 +364,8 @@ class EpicSlim(object):
         :type: list[str]
         """
         if mention_ids is None:
-            raise ValueError("Invalid value for `mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_ids = mention_ids
 
@@ -384,7 +390,8 @@ class EpicSlim(object):
         :type: list[str]
         """
         if member_mention_ids is None:
-            raise ValueError("Invalid value for `member_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_mention_ids = member_mention_ids
 
@@ -409,7 +416,8 @@ class EpicSlim(object):
         :type: list[int]
         """
         if project_ids is None:
-            raise ValueError("Invalid value for `project_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._project_ids = project_ids
 
@@ -434,7 +442,8 @@ class EpicSlim(object):
         :type: int
         """
         if stories_without_projects is None:
-            raise ValueError("Invalid value for `stories_without_projects`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stories_without_projects = stories_without_projects
 
@@ -459,7 +468,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if completed_at_override is None:
-            raise ValueError("Invalid value for `completed_at_override`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at_override = completed_at_override
 
@@ -484,7 +494,8 @@ class EpicSlim(object):
         :type: str
         """
         if productboard_plugin_id is None:
-            raise ValueError("Invalid value for `productboard_plugin_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._productboard_plugin_id = productboard_plugin_id
 
@@ -509,7 +520,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if started_at is None:
-            raise ValueError("Invalid value for `started_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started_at = started_at
 
@@ -534,7 +546,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if completed_at is None:
-            raise ValueError("Invalid value for `completed_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at = completed_at
 
@@ -559,7 +572,8 @@ class EpicSlim(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -582,7 +596,8 @@ class EpicSlim(object):
         :type: str
         """
         if global_id is None:
-            raise ValueError("Invalid value for `global_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._global_id = global_id
 
@@ -607,7 +622,8 @@ class EpicSlim(object):
         :type: bool
         """
         if completed is None:
-            raise ValueError("Invalid value for `completed`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed = completed
 
@@ -632,7 +648,8 @@ class EpicSlim(object):
         :type: str
         """
         if productboard_url is None:
-            raise ValueError("Invalid value for `productboard_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._productboard_url = productboard_url
 
@@ -657,7 +674,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if planned_start_date is None:
-            raise ValueError("Invalid value for `planned_start_date`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._planned_start_date = planned_start_date
 
@@ -682,7 +700,8 @@ class EpicSlim(object):
         :type: str
         """
         if state is None:
-            raise ValueError("Invalid value for `state`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._state = state
 
@@ -707,7 +726,8 @@ class EpicSlim(object):
         :type: int
         """
         if milestone_id is None:
-            raise ValueError("Invalid value for `milestone_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._milestone_id = milestone_id
 
@@ -732,7 +752,8 @@ class EpicSlim(object):
         :type: str
         """
         if requested_by_id is None:
-            raise ValueError("Invalid value for `requested_by_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._requested_by_id = requested_by_id
 
@@ -757,7 +778,8 @@ class EpicSlim(object):
         :type: int
         """
         if epic_state_id is None:
-            raise ValueError("Invalid value for `epic_state_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._epic_state_id = epic_state_id
 
@@ -782,7 +804,8 @@ class EpicSlim(object):
         :type: list[int]
         """
         if label_ids is None:
-            raise ValueError("Invalid value for `label_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._label_ids = label_ids
 
@@ -807,7 +830,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if started_at_override is None:
-            raise ValueError("Invalid value for `started_at_override`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._started_at_override = started_at_override
 
@@ -830,7 +854,8 @@ class EpicSlim(object):
         :type: str
         """
         if group_id is None:
-            raise ValueError("Invalid value for `group_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_id = group_id
 
@@ -855,7 +880,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -880,7 +906,8 @@ class EpicSlim(object):
         :type: list[str]
         """
         if group_mention_ids is None:
-            raise ValueError("Invalid value for `group_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_mention_ids = group_mention_ids
 
@@ -905,7 +932,8 @@ class EpicSlim(object):
         :type: str
         """
         if productboard_id is None:
-            raise ValueError("Invalid value for `productboard_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._productboard_id = productboard_id
 
@@ -930,7 +958,8 @@ class EpicSlim(object):
         :type: list[str]
         """
         if follower_ids is None:
-            raise ValueError("Invalid value for `follower_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._follower_ids = follower_ids
 
@@ -955,7 +984,8 @@ class EpicSlim(object):
         :type: list[str]
         """
         if owner_ids is None:
-            raise ValueError("Invalid value for `owner_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._owner_ids = owner_ids
 
@@ -980,7 +1010,8 @@ class EpicSlim(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -1005,7 +1036,8 @@ class EpicSlim(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -1030,7 +1062,8 @@ class EpicSlim(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -1055,7 +1088,8 @@ class EpicSlim(object):
         :type: str
         """
         if productboard_name is None:
-            raise ValueError("Invalid value for `productboard_name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._productboard_name = productboard_name
 
@@ -1080,7 +1114,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if deadline is None:
-            raise ValueError("Invalid value for `deadline`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._deadline = deadline
 
@@ -1103,7 +1138,8 @@ class EpicSlim(object):
         :type: EpicStats
         """
         if stats is None:
-            raise ValueError("Invalid value for `stats`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._stats = stats
 
@@ -1128,7 +1164,8 @@ class EpicSlim(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

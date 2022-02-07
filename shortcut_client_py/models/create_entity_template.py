@@ -71,7 +71,8 @@ class CreateEntityTemplate(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -117,7 +118,8 @@ class CreateEntityTemplate(object):
         :type: CreateStoryContents
         """
         if story_contents is None:
-            raise ValueError("Invalid value for `story_contents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_contents = story_contents
 

@@ -87,7 +87,8 @@ class HistoryActionTaskUpdate(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -112,7 +113,8 @@ class HistoryActionTaskUpdate(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -137,7 +139,8 @@ class HistoryActionTaskUpdate(object):
         :type: str
         """
         if action is None:
-            raise ValueError("Invalid value for `action`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
         allowed_values = ["update"]  # noqa: E501
         if action not in allowed_values:
             raise ValueError(
@@ -166,7 +169,8 @@ class HistoryActionTaskUpdate(object):
         :type: HistoryChangesTask
         """
         if changes is None:
-            raise ValueError("Invalid value for `changes`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._changes = changes
 
@@ -214,7 +218,8 @@ class HistoryActionTaskUpdate(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -239,7 +244,8 @@ class HistoryActionTaskUpdate(object):
         :type: int
         """
         if story_id is None:
-            raise ValueError("Invalid value for `story_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_id = story_id
 

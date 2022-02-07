@@ -114,7 +114,8 @@ class Task(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -139,7 +140,8 @@ class Task(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -164,7 +166,8 @@ class Task(object):
         :type: int
         """
         if story_id is None:
-            raise ValueError("Invalid value for `story_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_id = story_id
 
@@ -189,7 +192,8 @@ class Task(object):
         :type: list[str]
         """
         if mention_ids is None:
-            raise ValueError("Invalid value for `mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_ids = mention_ids
 
@@ -214,7 +218,8 @@ class Task(object):
         :type: list[str]
         """
         if member_mention_ids is None:
-            raise ValueError("Invalid value for `member_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_mention_ids = member_mention_ids
 
@@ -239,7 +244,8 @@ class Task(object):
         :type: datetime
         """
         if completed_at is None:
-            raise ValueError("Invalid value for `completed_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._completed_at = completed_at
 
@@ -264,7 +270,8 @@ class Task(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -289,7 +296,8 @@ class Task(object):
         :type: list[str]
         """
         if group_mention_ids is None:
-            raise ValueError("Invalid value for `group_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_mention_ids = group_mention_ids
 
@@ -314,7 +322,8 @@ class Task(object):
         :type: list[str]
         """
         if owner_ids is None:
-            raise ValueError("Invalid value for `owner_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._owner_ids = owner_ids
 
@@ -339,7 +348,8 @@ class Task(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -364,7 +374,8 @@ class Task(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -389,7 +400,8 @@ class Task(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -414,7 +426,8 @@ class Task(object):
         :type: bool
         """
         if complete is None:
-            raise ValueError("Invalid value for `complete`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._complete = complete
 
@@ -439,7 +452,8 @@ class Task(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

@@ -123,7 +123,8 @@ class StoryComment(object):
         :type: str
         """
         if app_url is None:
-            raise ValueError("Invalid value for `app_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._app_url = app_url
 
@@ -148,7 +149,8 @@ class StoryComment(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -173,7 +175,8 @@ class StoryComment(object):
         :type: bool
         """
         if deleted is None:
-            raise ValueError("Invalid value for `deleted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._deleted = deleted
 
@@ -198,7 +201,8 @@ class StoryComment(object):
         :type: int
         """
         if story_id is None:
-            raise ValueError("Invalid value for `story_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_id = story_id
 
@@ -223,7 +227,8 @@ class StoryComment(object):
         :type: list[str]
         """
         if mention_ids is None:
-            raise ValueError("Invalid value for `mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_ids = mention_ids
 
@@ -248,7 +253,8 @@ class StoryComment(object):
         :type: str
         """
         if author_id is None:
-            raise ValueError("Invalid value for `author_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._author_id = author_id
 
@@ -273,7 +279,8 @@ class StoryComment(object):
         :type: list[str]
         """
         if member_mention_ids is None:
-            raise ValueError("Invalid value for `member_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_mention_ids = member_mention_ids
 
@@ -298,7 +305,8 @@ class StoryComment(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -323,7 +331,8 @@ class StoryComment(object):
         :type: list[str]
         """
         if group_mention_ids is None:
-            raise ValueError("Invalid value for `group_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_mention_ids = group_mention_ids
 
@@ -348,7 +357,8 @@ class StoryComment(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -396,7 +406,8 @@ class StoryComment(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -421,7 +432,8 @@ class StoryComment(object):
         :type: int
         """
         if position is None:
-            raise ValueError("Invalid value for `position`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._position = position
 
@@ -446,7 +458,8 @@ class StoryComment(object):
         :type: list[StoryReaction]
         """
         if reactions is None:
-            raise ValueError("Invalid value for `reactions`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._reactions = reactions
 
@@ -471,7 +484,8 @@ class StoryComment(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 
@@ -496,7 +510,8 @@ class StoryComment(object):
         :type: str
         """
         if text is None:
-            raise ValueError("Invalid value for `text`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._text = text
 

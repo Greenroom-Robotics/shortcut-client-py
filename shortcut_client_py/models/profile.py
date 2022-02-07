@@ -95,7 +95,8 @@ class Profile(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -120,7 +121,8 @@ class Profile(object):
         :type: bool
         """
         if deactivated is None:
-            raise ValueError("Invalid value for `deactivated`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._deactivated = deactivated
 
@@ -168,7 +170,8 @@ class Profile(object):
         :type: str
         """
         if mention_name is None:
-            raise ValueError("Invalid value for `mention_name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_name = mention_name
 
@@ -193,7 +196,8 @@ class Profile(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -218,7 +222,8 @@ class Profile(object):
         :type: str
         """
         if gravatar_hash is None:
-            raise ValueError("Invalid value for `gravatar_hash`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._gravatar_hash = gravatar_hash
 
@@ -243,7 +248,8 @@ class Profile(object):
         :type: str
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -266,7 +272,8 @@ class Profile(object):
         :type: Icon
         """
         if display_icon is None:
-            raise ValueError("Invalid value for `display_icon`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._display_icon = display_icon
 
@@ -291,7 +298,8 @@ class Profile(object):
         :type: str
         """
         if email_address is None:
-            raise ValueError("Invalid value for `email_address`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._email_address = email_address
 

@@ -62,7 +62,8 @@ class GetExternalLinkStoriesParams(object):
         :type: str
         """
         if external_link is None:
-            raise ValueError("Invalid value for `external_link`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_link = external_link
 

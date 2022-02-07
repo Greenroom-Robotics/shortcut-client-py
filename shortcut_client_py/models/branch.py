@@ -102,7 +102,8 @@ class Branch(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -127,7 +128,8 @@ class Branch(object):
         :type: bool
         """
         if deleted is None:
-            raise ValueError("Invalid value for `deleted`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._deleted = deleted
 
@@ -152,7 +154,8 @@ class Branch(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -177,7 +180,8 @@ class Branch(object):
         :type: bool
         """
         if persistent is None:
-            raise ValueError("Invalid value for `persistent`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._persistent = persistent
 
@@ -202,7 +206,8 @@ class Branch(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -227,7 +232,8 @@ class Branch(object):
         :type: list[PullRequest]
         """
         if pull_requests is None:
-            raise ValueError("Invalid value for `pull_requests`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._pull_requests = pull_requests
 
@@ -252,7 +258,8 @@ class Branch(object):
         :type: list[int]
         """
         if merged_branch_ids is None:
-            raise ValueError("Invalid value for `merged_branch_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._merged_branch_ids = merged_branch_ids
 
@@ -277,7 +284,8 @@ class Branch(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -302,7 +310,8 @@ class Branch(object):
         :type: str
         """
         if url is None:
-            raise ValueError("Invalid value for `url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url = url
 
@@ -327,7 +336,8 @@ class Branch(object):
         :type: int
         """
         if repository_id is None:
-            raise ValueError("Invalid value for `repository_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._repository_id = repository_id
 
@@ -352,7 +362,8 @@ class Branch(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

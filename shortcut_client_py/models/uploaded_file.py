@@ -126,7 +126,8 @@ class UploadedFile(object):
         :type: str
         """
         if description is None:
-            raise ValueError("Invalid value for `description`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._description = description
 
@@ -151,7 +152,8 @@ class UploadedFile(object):
         :type: str
         """
         if entity_type is None:
-            raise ValueError("Invalid value for `entity_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._entity_type = entity_type
 
@@ -176,7 +178,8 @@ class UploadedFile(object):
         :type: list[int]
         """
         if story_ids is None:
-            raise ValueError("Invalid value for `story_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_ids = story_ids
 
@@ -201,7 +204,8 @@ class UploadedFile(object):
         :type: list[str]
         """
         if mention_ids is None:
-            raise ValueError("Invalid value for `mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._mention_ids = mention_ids
 
@@ -226,7 +230,8 @@ class UploadedFile(object):
         :type: list[str]
         """
         if member_mention_ids is None:
-            raise ValueError("Invalid value for `member_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._member_mention_ids = member_mention_ids
 
@@ -251,7 +256,8 @@ class UploadedFile(object):
         :type: str
         """
         if name is None:
-            raise ValueError("Invalid value for `name`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._name = name
 
@@ -276,7 +282,8 @@ class UploadedFile(object):
         :type: str
         """
         if thumbnail_url is None:
-            raise ValueError("Invalid value for `thumbnail_url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._thumbnail_url = thumbnail_url
 
@@ -301,7 +308,8 @@ class UploadedFile(object):
         :type: int
         """
         if size is None:
-            raise ValueError("Invalid value for `size`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._size = size
 
@@ -326,7 +334,8 @@ class UploadedFile(object):
         :type: str
         """
         if uploader_id is None:
-            raise ValueError("Invalid value for `uploader_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._uploader_id = uploader_id
 
@@ -351,7 +360,8 @@ class UploadedFile(object):
         :type: str
         """
         if content_type is None:
-            raise ValueError("Invalid value for `content_type`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._content_type = content_type
 
@@ -376,7 +386,8 @@ class UploadedFile(object):
         :type: datetime
         """
         if updated_at is None:
-            raise ValueError("Invalid value for `updated_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._updated_at = updated_at
 
@@ -401,7 +412,8 @@ class UploadedFile(object):
         :type: str
         """
         if filename is None:
-            raise ValueError("Invalid value for `filename`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._filename = filename
 
@@ -426,7 +438,8 @@ class UploadedFile(object):
         :type: list[str]
         """
         if group_mention_ids is None:
-            raise ValueError("Invalid value for `group_mention_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._group_mention_ids = group_mention_ids
 
@@ -451,7 +464,8 @@ class UploadedFile(object):
         :type: str
         """
         if external_id is None:
-            raise ValueError("Invalid value for `external_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._external_id = external_id
 
@@ -476,7 +490,8 @@ class UploadedFile(object):
         :type: int
         """
         if id is None:
-            raise ValueError("Invalid value for `id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._id = id
 
@@ -501,7 +516,8 @@ class UploadedFile(object):
         :type: str
         """
         if url is None:
-            raise ValueError("Invalid value for `url`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._url = url
 
@@ -526,7 +542,8 @@ class UploadedFile(object):
         :type: datetime
         """
         if created_at is None:
-            raise ValueError("Invalid value for `created_at`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._created_at = created_at
 

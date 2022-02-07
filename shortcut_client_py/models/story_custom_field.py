@@ -70,7 +70,8 @@ class StoryCustomField(object):
         :type: str
         """
         if field_id is None:
-            raise ValueError("Invalid value for `field_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._field_id = field_id
 
@@ -95,7 +96,8 @@ class StoryCustomField(object):
         :type: str
         """
         if value_id is None:
-            raise ValueError("Invalid value for `value_id`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._value_id = value_id
 
@@ -120,7 +122,8 @@ class StoryCustomField(object):
         :type: str
         """
         if value is None:
-            raise ValueError("Invalid value for `value`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._value = value
 

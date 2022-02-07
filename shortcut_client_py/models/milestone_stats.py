@@ -118,7 +118,8 @@ class MilestoneStats(object):
         :type: int
         """
         if num_related_documents is None:
-            raise ValueError("Invalid value for `num_related_documents`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._num_related_documents = num_related_documents
 

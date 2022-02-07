@@ -62,7 +62,8 @@ class DeleteStories(object):
         :type: list[int]
         """
         if story_ids is None:
-            raise ValueError("Invalid value for `story_ids`, must not be `None`")  # noqa: E501
+            # This should not be here...
+            True
 
         self._story_ids = story_ids
 
