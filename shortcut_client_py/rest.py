@@ -151,7 +151,7 @@ class RESTClientObject(object):
 
         try:
             # For `POST`, `PUT`, `PATCH`, `OPTIONS`, `DELETE`
-            if method in ['POST', 'PUT', 'PATCH', 'OPTIONS', 'DELETE']:
+            if method in ['POST', 'PUT', 'PATCH', 'OPTIONS', 'DELETE', 'GET']:
                 if query_params:
                     url += '?' + urlencode(query_params)
                 if re.search('json', headers['Content-Type'], re.IGNORECASE):
@@ -201,7 +201,7 @@ class RESTClientObject(object):
                              arguments. Please check that your arguments match
                              declared content type."""
                     raise ApiException(status=0, reason=msg)
-            # For `GET`, `HEAD`
+            # For `HEAD`
             else:
                 r = self.pool_manager.request(method, url,
                                               fields=query_params,
@@ -224,12 +224,13 @@ class RESTClientObject(object):
         return r
 
     def GET(self, url, headers=None, query_params=None, _preload_content=True,
-            _request_timeout=None):
+            _request_timeout=None, body=None):
         return self.request("GET", url,
                             headers=headers,
                             _preload_content=_preload_content,
                             _request_timeout=_request_timeout,
-                            query_params=query_params)
+                            query_params=query_params,
+                            body=body)
 
     def HEAD(self, url, headers=None, query_params=None, _preload_content=True,
              _request_timeout=None):
